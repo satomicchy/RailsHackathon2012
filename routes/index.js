@@ -4,5 +4,5 @@
  */
 
 exports.index = function(req, res){
-  res.render('index', { title: 'Rails Hackathon 2012 in Okinawa' })
+  res.render('layout', { title: 'Rails Hackathon 2012 in Okinawa' })
 };
