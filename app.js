@@ -8,7 +8,8 @@ var express = require('express')
 var fs = require('fs');
 var less = require('less');
 
-var app = module.exports = express.createServer();
+var app = module.exports = express.createServer(express.logger(),express.bodyParser());
+
 
 // Configuration
 
