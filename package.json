@@ -8,5 +8,7 @@
     , "ejs": ""
     , "less": ""
     , "sequelize": ""
+    , "passport": ""
+    , "passport-twitter": ""
   }
 }
