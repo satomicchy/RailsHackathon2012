@@ -44,7 +44,11 @@ app.configure('production', function(){
 
 // Routes
 
-app.get('/', routes.index);
+app.get('/', function(req, res){
+    res.render('index', {
+        locals: {title: 'トップページ'}
+    });
+});
 
 app.listen(3000, function(){
   console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
