@@ -50,6 +50,12 @@ app.get('/', function(req, res){
     });
 });
 
+app.get('/about', function(req, res){
+    res.render('about', {
+        locals: {title: 'RailsHackathonについて'}
+    });
+});
+
 app.listen(3000, function(){
   console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
 });
