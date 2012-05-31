@@ -26,13 +26,6 @@
   });
 
   jQuery(function($) {
-    return $('#yokohamarb').click(function() {
-        window.open("http://bukt.org/groups/3");
-        return false;
-    });
-  });
-
-  jQuery(function($) {
     return $('#okinawarb').click(function() {
         window.open("http://qwik.jp/okinawarb/");
         return false;
