@@ -1,14 +1,8 @@
 {
-    "name": "application-name"
+    "name": "railshackathon2012"
   , "version": "0.0.1"
-  , "private": true
   , "dependencies": {
       "express": "2.5.8"
     , "jade": ">= 0.0.1"
-    , "ejs": ""
-    , "less": ""
-    , "sequelize": ""
-    , "passport": ""
-    , "passport-twitter": ""
   }
 }
