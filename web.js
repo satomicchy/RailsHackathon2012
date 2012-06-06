@@ -45,13 +45,13 @@ app.configure('production', function(){
 // Routes
 
 app.get('/', function(req, res){
-    res.render('index', {
+    res.render('about', {
         locals: {title: 'トップページ'}
     });
 });
 
-app.get('/about', function(req, res){
-    res.render('about', {
+app.get('/information', function(req, res){
+    res.render('information', {
         locals: {title: 'RailsHackathonについて'}
     });
 });

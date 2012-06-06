@@ -1,14 +1,14 @@
 (function() {
 
   jQuery(function($) {
-    return $('#home_page').click(function() {
-      return location.href = "/";
+    return $('#info_page').click(function() {
+      return location.href = "/information";
     });
   });
 
   jQuery(function($) {
     return $('#about_page').click(function() {
-      return location.href = "/about";
+      return location.href = "/";
     });
   });
 
