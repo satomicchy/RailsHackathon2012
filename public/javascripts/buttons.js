@@ -32,4 +32,11 @@
     });
   });
 
+  jQuery(function($) {
+    return $('#shibuyarb').click(function() {
+        window.open("http://www.facebook.com/groups/shibuya.rb/");
+        return false;
+    });
+  });
+
 }).call(this);
