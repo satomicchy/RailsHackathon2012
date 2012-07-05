@@ -46,7 +46,7 @@ app.configure('production', function(){
 
 app.get('/', function(req, res){
     res.render('about', {
-        locals: {title: 'トップページ'}
+        locals: {title: 'Okinawa RailsHackathon2012'}
     });
 });
 
