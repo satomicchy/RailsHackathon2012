@@ -39,4 +39,18 @@
     });
   });
 
+  jQuery(function($) {
+    return $('#register_osaka').click(function() {
+        window.open("http://qwik.jp/minamirb/198.html");
+        return false;
+    });
+  });
+
+  jQuery(function($) {
+    return $('#register_shibuya').click(function() {
+        window.open("http://www.zusaar.com/event/370005");
+        return false;
+    });
+  });
+
 }).call(this);
