@@ -50,6 +50,12 @@ app.get('/', function(req, res){
     });
 });
 
+app.get('/about_en', function(req, res){
+    res.render('about_en', {
+        locals: {title: 'Okinawa RailsHackathon2012'}
+    });
+});
+
 app.get('/information', function(req, res){
     res.render('information', {
         locals: {title: 'RailsHackathonについて'}
