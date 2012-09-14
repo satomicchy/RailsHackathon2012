@@ -47,6 +47,13 @@
   });
 
   jQuery(function($) {
+    return $('#register_okinawa').click(function() {
+        window.open("http://atnd.org/events/32340");
+        return false;
+    });
+  });
+
+  jQuery(function($) {
     return $('#register_shibuya').click(function() {
         window.open("http://www.zusaar.com/event/370005");
         return false;
