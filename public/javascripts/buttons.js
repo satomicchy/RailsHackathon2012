@@ -60,4 +60,11 @@
     });
   });
 
+  jQuery(function($) {
+    return $('#qanda_page').click(function() {
+      return location.href = "/q_and_a";
+    });
+  });
+
+
 }).call(this);

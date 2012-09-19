@@ -68,6 +68,12 @@ app.get('/schedule', function(req, res){
     });
 });
 
+app.get('/q_and_a', function(req, res){
+    res.render('q_and_a', {
+        locals: {title: 'RailsHackathon Q & A'}
+    });
+});
+
 var port = process.env.PORT || 3000;
 
 app.listen(port, function(){
