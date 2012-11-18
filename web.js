@@ -74,6 +74,12 @@ app.get('/q_and_a', function(req, res){
     });
 });
 
+app.get('/teams', function(req, res){
+    res.render('teams', {
+        locals: {title: 'RailsHackathon Teams'}
+    });
+});
+
 var port = process.env.PORT || 3000;
 
 app.listen(port, function(){

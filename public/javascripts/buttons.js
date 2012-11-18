@@ -66,5 +66,11 @@
     });
   });
 
+  jQuery(function($) {
+    return $('#teams_page').click(function() {
+      return location.href = "/teams";
+    });
+  });
+
 
 }).call(this);
