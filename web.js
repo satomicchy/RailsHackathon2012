@@ -80,6 +80,12 @@ app.get('/teams', function(req, res){
     });
 });
 
+app.get('/report', function(req, res){
+    res.render('report', {
+        locals: {title: 'RailsHackathon Report'}
+    });
+});
+
 var port = process.env.PORT || 3000;
 
 app.listen(port, function(){

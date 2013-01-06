@@ -72,5 +72,10 @@
     });
   });
 
+  jQuery(function($) {
+    return $('#report_page').click(function() {
+      return location.href = "/report";
+    });
+  });
 
 }).call(this);
